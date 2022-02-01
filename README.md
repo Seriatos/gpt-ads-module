@@ -1,10 +1,6 @@
->  The project has moved to [https://github.com/ax2inc/nuxt-modules/tree/master/packages/gpt-ads](https://github.com/ax2inc/nuxt-modules/tree/master/packages/gpt-ads)
-
 # gpt-ads-module
 [![npm (scoped with tag)](https://img.shields.io/npm/v/@ax2/gpt-ads-module/latest.svg?style=flat-square)](https://npmjs.com/package/@ax2/gpt-ads-module)
 [![npm](https://img.shields.io/npm/dt/@ax2/gpt-ads-module.svg?style=flat-square)](https://npmjs.com/package/@ax2/gpt-ads-module)
-[![CircleCI](https://img.shields.io/circleci/project/github/ax2inc/gpt-ads-module.svg?style=flat-square)](https://circleci.com/gh/ax2inc/gpt-ads-module)
-[![Codecov](https://img.shields.io/codecov/c/github/ax2inc/gpt-ads-module.svg?style=flat-square)](https://codecov.io/gh/ax2inc/gpt-ads-module)
 [![Dependencies](https://david-dm.org/ax2inc/gpt-ads-module/status.svg?style=flat-square)](https://david-dm.org/ax2inc/gpt-ads-module)
 [![Code Style](https://badgen.net/badge/code%20style/airbnb/ff5a5f?icon=airbnb)](https://github.com/airbnb/javascript)
 
@@ -98,6 +94,13 @@ Set to `true` to have empty ad slots collapsed themselves, this can be overridde
 - **Default**: `false`
 
 Set to `true` to enable ghost mode. With ghost mode enabled, ad slots aren't displayed and are replaced by empty bordered divs of the size the ads would have if they were displayed. This is useful during development where you might not want to display real ads.
+
+### emptyClass
+
+- **Type**: `String`
+- **Default**: `'is-empty'`
+
+Class to apply to empty ads slots.
 
 ## Usage
 
@@ -193,6 +196,6 @@ Equivalent:
 
 ## License
 
-[MIT License](./LICENSE)
+[MIT License](../../LICENSE)
 
 Copyright (c) Ax2 Inc.

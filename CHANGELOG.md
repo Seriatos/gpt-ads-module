@@ -1,86 +1,103 @@
 # Change Log
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-<a name="0.5.1"></a>
-## [0.5.1](https://github.com/ax2inc/gpt-ads-module/compare/v0.5.0...v0.5.1) (2018-10-11)
-
-
-### Bug Fixes
-
-* Prevent error with size mappings that have a single size definition ([616b250](https://github.com/ax2inc/gpt-ads-module/commit/616b250))
-
-
-
-<a name="0.5.0"></a>
-# [0.5.0](https://github.com/ax2inc/gpt-ads-module/compare/v0.4.1...v0.5.0) (2018-10-11)
+# [0.6.0](https://github.com/ax2inc/nuxt-modules/compare/@ax2/gpt-ads-module@0.5.3...@ax2/gpt-ads-module@0.6.0) (2019-03-15)
 
 
 ### Features
 
-* Add ghostMode option ([4e2dadf](https://github.com/ax2inc/gpt-ads-module/commit/4e2dadf))
+* Toggle class on ads slots when they become empty ([a3863f1](https://github.com/ax2inc/nuxt-modules/commit/a3863f1))
 
 
 
-<a name="0.4.1"></a>
-## [0.4.1](https://github.com/ax2inc/gpt-ads-module/compare/v0.4.0...v0.4.1) (2018-10-05)
 
 
-### Bug Fixes
-
-* Rely on self-built sizes mapping ([ba77209](https://github.com/ax2inc/gpt-ads-module/commit/ba77209))
-
-
-
-<a name="0.4.0"></a>
-# [0.4.0](https://github.com/ax2inc/gpt-ads-module/compare/v0.3.0...v0.4.0) (2018-10-04)
+## [0.5.3](https://github.com/ax2inc/nuxt-modules/compare/@ax2/gpt-ads-module@0.5.2...@ax2/gpt-ads-module@0.5.3) (2018-11-01)
 
 
 ### Bug Fixes
 
-* Prevent TypeError if mapping were to be undefined ([a8f4e53](https://github.com/ax2inc/gpt-ads-module/commit/a8f4e53))
-
-
-### Features
-
-* Add collapseEmptyDivs option & collapseEmptyDiv prop ([eaf8ee2](https://github.com/ax2inc/gpt-ads-module/commit/eaf8ee2))
+* Test window.googletag rather than googletag, prevents an error in SPA mode ([38699d7](https://github.com/ax2inc/nuxt-modules/commit/38699d7))
 
 
 
-<a name="0.3.0"></a>
-# [0.3.0](https://github.com/ax2inc/gpt-ads-module/compare/v0.2.0...v0.3.0) (2018-10-04)
 
 
-### Features
+## 0.5.2 (2018-10-18)
 
-* Add responsive option and isResponsive prop ([4c1488c](https://github.com/ax2inc/gpt-ads-module/commit/4c1488c))
-
-
-
-<a name="0.2.0"></a>
-# [0.2.0](https://github.com/ax2inc/gpt-ads-module/compare/v0.1.1...v0.2.0) (2018-09-27)
-
-
-### Features
-
-* Add individualRefresh option ([d6d5280](https://github.com/ax2inc/gpt-ads-module/commit/d6d5280))
+**Note:** Version bump only for package @ax2/gpt-ads-module
 
 
 
-<a name="0.1.1"></a>
-## [0.1.1](https://github.com/ax2inc/gpt-ads-module/compare/v0.1.0...v0.1.1) (2018-09-26)
+
+
+
+## 0.5.1 (2018-10-11)
 
 
 ### Bug Fixes
 
-* Slot size should be treated as a list ([4e86999](https://github.com/ax2inc/gpt-ads-module/commit/4e86999))
+* Prevent error with size mappings that have a single size definition
 
 
+# 0.5.0 (2018-10-11)
 
-<a name="0.1.0"></a>
+
+### Features
+
+* Add ghostMode option
+
+
+## 0.4.1 (2018-10-05)
+
+
+### Bug Fixes
+
+* Rely on self-built sizes mapping
+
+
+# 0.4.0 (2018-10-04)
+
+
+### Bug Fixes
+
+* Prevent TypeError if mapping were to be undefined
+
+
+### Features
+
+* Add collapseEmptyDivs option & collapseEmptyDiv prop
+
+
+# 0.3.0 (2018-10-04)
+
+
+### Features
+
+* Add responsive option and isResponsive prop
+
+
+# 0.2.0 (2018-09-27)
+
+
+### Features
+
+* Add individualRefresh option
+
+
+## 0.1.1 (2018-09-26)
+
+
+### Bug Fixes
+
+* Slot size should be treated as a list
+
+
 # 0.1.0 (2018-09-11)
 
 
 ### Features
 
-* Initial commit ([205793a](https://github.com/ax2inc/gpt-ads-module/commit/205793a))
+* Initial commit

@@ -2,11 +2,13 @@ const { Nuxt, Builder } = require('nuxt');
 const jsdom = require('jsdom');
 const request = require('request-promise-native');
 
+const PORT = 3001;
 const config = require('./fixture/nuxt.config');
 
 const { JSDOM } = jsdom;
 const getDom = html => (new JSDOM(html)).window.document;
-const url = path => `http://localhost:3000${path}`;
+
+const url = path => `http://localhost:${PORT}${path}`;
 const get = path => request(url(path));
 
 const GPT_LIB_SCRIPT_ID = 'google-publisher-tag-lib-script';
@@ -18,7 +20,7 @@ describe('basic', () => {
   beforeAll(async () => {
     nuxt = new Nuxt(config);
     await new Builder(nuxt).build();
-    await nuxt.listen(3000);
+    await nuxt.listen(PORT);
   }, 60000);
 
   afterAll(async () => {
